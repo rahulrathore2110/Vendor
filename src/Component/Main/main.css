@@ -1,0 +1,51 @@
+.vcards {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+  justify-content: space-around;
+  background-color: rgb(16, 184, 235);
+  border-radius: 10px;
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+.home {
+  display: grid;
+  gap: 10px;
+}
+
+.formouter,
+.addvendor {
+  width: 80%;
+  margin: auto;
+}
+
+.updateform {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 5px;
+}
+
+.updateform > label {
+  font-size: 25;
+}
+
+.updateform > input,
+button {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.homeform{
+    display: flex;
+    padding: 15px;
+    gap: 15px;
+    justify-content: center;
+}
